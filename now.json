@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        { "source": "/discord", "destination": "https://discord.com/invite/vPmqZqgpsS" },
+        { "source": "/twitter", "destination": "https://www.twitter.com/buildspaceIND" },
+        { "source": "/instagram", "destination": "https://www.instagr.am/buildspaceIND" },
+        { "source": "/sponsor", "destination": "https://buildspace-india.super.site/" },
+        { "source": "/mail", "destination": "mailto:gm@buildspacein.xyz" }
+    ]
+  } 

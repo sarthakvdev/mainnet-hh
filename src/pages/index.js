@@ -9,7 +9,10 @@ import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 
 const Landing = () => (
-  <div className="bg-white overflow-x-hidden font-inter" style={{ overflowX: "hidden" }}>
+  <div
+    className="bg-white overflow-x-hidden font-inter"
+    style={{ overflowX: "hidden" }}
+  >
     <Head>
       <title>buildspace India</title>
     </Head>

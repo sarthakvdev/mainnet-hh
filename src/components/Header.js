@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Popover } from "@headlessui/react";
 import links from "../lib/links";
 import { Button } from "@chakra-ui/react";
-import { FaLock } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const Header = () => (
   <Popover className="relative">
@@ -19,28 +19,28 @@ const Header = () => (
             <Link href={links.twitter}>
               <a target="_blank">
                 <div className="text-gray-900 tracking-wide cursor-pointer">
-                  twitter.
+                  Twitter
                 </div>
               </a>
             </Link>
             <Link href={links.discord}>
               <a target="_blank">
                 <div className="text-gray-900 tracking-wide cursor-pointer">
-                  discord.
+                  Team
                 </div>
               </a>
             </Link>
-            {/* <Link href={links.apply} passHref={true}>
+            <Link href={links.apply} passHref={true}>
               <button
                 className="flex items-center justify-center transition-all shadow-lg active:scale-100 duration-150 hover:scale-[1.02] bg-black hover:bg-gray-800 text-white ease-in-out py-3 px-8 lg:py-4 lg:px-12 rounded-xl"
                 disabled
               >
-                <div className="mr-2">
-                  <FaLock />
+                Get updates
+                <div className="ml-2">
+                  <FaArrowRight />
                 </div>
-                coming soon
               </button>
-            </Link> */}
+            </Link>
           </div>
         </div>
         {/* Mobile Navigation */}

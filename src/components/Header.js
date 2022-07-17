@@ -5,7 +5,7 @@ import { Button } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 
 const Header = () => (
-  <Popover className="relative border border-purple-500">
+  <Popover className="relative">
     <div className="max-w-[1400px] mx-auto px-4">
       <div className="flex justify-between items-center md:justify-between sm:px-6 md:space-x-10 py-2">
         <p className="text-xl font-bold">mainnetDAO</p>

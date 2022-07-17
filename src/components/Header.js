@@ -5,14 +5,10 @@ import { Button } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 
 const Header = () => (
-  <Popover className="relative">
+  <Popover className="relative border border-purple-500">
     <div className="max-w-[1400px] mx-auto px-4">
-      <div className="flex justify-between items-center md:justify-between sm:px-6 md:space-x-10 py-6">
-        <img
-          src="/Logo.svg"
-          alt="buildspace india"
-          className="w-36 md:w-auto"
-        />
+      <div className="flex justify-between items-center md:justify-between sm:px-6 md:space-x-10 py-2">
+        <p className="text-xl font-bold">mainnetDAO</p>
         {/* Desktop Navigation */}
         <div className="hidden md:inline-flex justify-between md:items-center">
           <div className="flex items-center text-sm lg:text-lg font-semibold space-x-12">

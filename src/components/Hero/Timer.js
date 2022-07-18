@@ -50,7 +50,7 @@ const Timer = () => {
       <h2>
         {timerMinutes} <span className="opacity-50">mins</span> left
       </h2> */}
-      <h2>date TBD</h2>
+      <h2>Hacker house announcing soon...</h2>
     </div>
   );
 };

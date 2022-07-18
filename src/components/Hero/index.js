@@ -15,12 +15,12 @@ function Hero() {
             <input
               type="email"
               placeholder="Enter your email to get updates"
-              className="w-full py-2 md:py-4 rounded-r-full md:rounded-lg"
+              className="w-full py-2 md:py-4 rounded-full border-2 border-[#A1A1A1] md:rounded-lg text-lg"
             />
-            <button type="submit" className="absolute hidden md:block right-6 top-2 bg-black active:bg-gray-700 text-white w-32 py-2 rounded-md">
+            <button type="submit" className="absolute hidden md:block right-7 top-3 bg-black font-medium active:bg-gray-700 text-white w-32 py-2 rounded-md">
               Submit Email
             </button>
-            <button type="sumit" className=" absolute md:hidden right-5 top-1 md:right-2 md:top-2 text-white bg-black p-2 rounded-full ">
+            <button type="sumit" className="absolute md:hidden right-6 top-2 text-white bg-black p-2 rounded-full ">
               <ArrowRightIcon className="w-4" />
             </button>
           </form>

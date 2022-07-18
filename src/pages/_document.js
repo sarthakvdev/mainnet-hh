@@ -1,8 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 const Document = () => {
-  const title = "buildspace India";
-  const desc = "Bringing the world’s loved web network to India";
+  const title = "mainnetDAO";
+  const desc = "where devs learn, buidl and ship together";
   const domain = "https://www.buildspacein.xyz";
 
   return (

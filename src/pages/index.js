@@ -14,7 +14,7 @@ const Landing = () => (
     style={{ overflowX: "hidden" }}
   >
     <Head>
-      <title>buildspace India</title>
+      <title>mainnetDAO</title>
     </Head>
 
     <div

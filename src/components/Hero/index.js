@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Timer from "./Timer.js";
 import { ArrowRightIcon } from "@heroicons/react/outline";
 
@@ -27,6 +28,15 @@ function Hero() {
       </div>
       <div className="flex justify-center items-center bg-black w-full py-10 md:py-20 lg:py-28 text-left px-10 md:px-20">
         <Timer />
+      </div>
+      <div className="absolute top-12 md:top-20 left-5 sm:left-10 md:left-16 rotate-[-15deg]">
+        <p className="text-4xl md:text-6xl">💻</p>
+      </div>
+      <div className="absolute bottom-48 sm:bottom-40 md:bottom-56 lg:bottom-[350px] right-16 md:right-28 rotate-[80deg]">
+        <p className="text-5xl md:text-7xl">🍾</p>
+      </div>
+      <div className="absolute bottom-40 sm:bottom-24 md:bottom-40 lg:bottom-60 left-16 sm:left-52 lg:left-72 rotate-[23deg]">
+        <p className="text-4xl md:text-6xl">🤓</p>
       </div>
     </div>
   );

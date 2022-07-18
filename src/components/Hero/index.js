@@ -17,7 +17,7 @@ function Hero() {
               className="w-full py-2 md:py-4 rounded-r-full md:rounded-lg"
             />
             <button type="submit" className="absolute hidden md:block right-6 top-2 bg-black active:bg-gray-700 text-white w-32 py-2 rounded-md">
-              Enter Email
+              Submit Email
             </button>
             <button type="sumit" className=" absolute md:hidden right-5 top-1 md:right-2 md:top-2 text-white bg-black p-2 rounded-full ">
               <ArrowRightIcon className="w-4" />
